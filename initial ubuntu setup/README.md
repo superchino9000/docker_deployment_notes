@@ -241,4 +241,14 @@ The general flow for adding new application like wordpress for example is:
 
 That's it! As you do this more often, the more you'll appreciate how fast it is to deploy applications with docker and docker-compose with caddy v2!
 
+### If your wordpress gets hacked
+```
+docker-compose down
+
+sudo rm -r wordpress
+
+sudo rm -r wordpress-db
+
+```
+
 Refer to the readme at: https://github.com/StarWhiz/docker_deployment_notes for command references
